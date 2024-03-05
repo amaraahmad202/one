@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Lilita One', sans-serif;
+    font-weight: lighter;
+}
+
+header {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header, footer {
+    background-color: white;
+    height: 15vh;
+}
+
+.logo{
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+nav{
+    width: 100%;
+    padding: 16px;
+
+}
+.nav-list{
+    list-style-type: none;
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+}
+
+a{
+    text-decoration: none;
+    color: #1799b5;
+}
+
+a:hover{
+    color: #f78da7;
+    transition: 0.20s;
+}
+
+main{
+    margin: 5% 10%;
+}
+
+#homepage-cover{
+    min-height: 50vh;
+    background-size: cover;
+    background-position: bottom;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../images/cow.jpg);
+    padding: 10% 10%;
+}
+
+#cafe-cover{
+    min-height: 50vh;
+    background-size: cover;
+    background-position: bottom;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../images/coffee.jpg);
+    padding: 5% 10%;
+}
+
+#shop-cover{
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../images/produce.jpg);
+    padding: 5% 10%;   
+}
+#things-to-do-cover{
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../images/cowCenter.jpg);
+    padding: 5% 10%;
+}
+
+.top h1, p{
+    text-align: center;
+    color: #f6f2e7;
+}
+
+.top p{
+    margin-top: 3%;
+    color: #f6f2e7;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+
+h2{
+    font-size: 50px;
+    padding-bottom: 5%;
+    color: #f78da7;
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    padding-bottom: 5%;
+    color: #f78da7;
+}
+
+h4{
+    color: #1799b5;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+p{
+    color: #1799b5;
+    font-size: 20px;
+}
+
+#products{
+    font-size: 50px;
+    padding: 2%;
+    color: #f78da7;
+    text-align: center;
+}
+
+.card-container-two{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 10vh;
+   
+}
+
+.card-content-two{
+    background-color: #f6f2e7;
+    width: 250px;
+    height: 50vh;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    padding: 10%
+}
+.card-image-two{
+    height: 25vh;
+    width: 200px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.card-text-two{
+   padding-top: 10%;
+}
+
+.card-container{
+    background-color: #f6f2e7;
+    padding: 2%;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+
+
+.card-content{
+display: flex;
+justify-content: space-between;
+padding-bottom: 5%;
+
+}
+
+.card-image, .card-image-two{
+    overflow: hidden;
+    border-radius: 5px;
+}
+.card-image, .card-text, .contact-form{
+    width: 50%;
+    height: 43vh;
+    
+}
+
+.card-text, .card-text-two{
+    text-align: center;
+    padding-left: 2%;
+}
+
+.two-columns{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.mon-sat{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card-text p{
+    font-size: 20px;
+    padding: 5px;
+}
+
+#contact{
+    gap: 100px; 
+}
+
+form{
+    background-color: #f78da7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    height: 43vh;
+}
+
+#form-heading{
+    color: #f6f2e7;
+    margin-top: 10px;
+    font-size: 30px;
+    padding-top: 5%;
+}
+
+form input{
+    width: 70%;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    color: #666;
+    border-radius: 5px;
+}
+
+#msg{
+    height: 80px;
+}
+
+button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
